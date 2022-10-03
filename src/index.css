@@ -1,0 +1,77 @@
+@import-normalize; /* bring in normalize.css styles */
+
+body {
+  font-size: 16px;
+  margin: 0;
+  height: 100vh;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #ffffff;
+  background-image: url(../public/img/Spacex.jpg);
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.slide-img {
+  width: 800px;
+  /* height: 700px; */
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dragon-info {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  body {
+    height: 100%;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .wrapper {
+    max-width: 390px;
+  }
+  .dragon-info {
+    display: block;
+  }
+}
