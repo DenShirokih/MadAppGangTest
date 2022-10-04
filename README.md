@@ -3,7 +3,7 @@ This project was created with
 and advanced settings
 [refer to documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Подготовка нового проекта
+## Preparing a new project
 
 1. Make sure you have an LTS version of Node.js installed on your machine.
    [Download and install](https://nodejs.org/en/) her if necessary.
